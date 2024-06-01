@@ -38,7 +38,7 @@ export default function Testimonials() {
   return (
     <div className="mx-12">
 
-      <h1 className="text-5xl font-bold mt-4">Challenges</h1>
+      <h1 className="text-5xl font-bold mt-4">2024 Challenge - Winner takes it all</h1>
       <p className="text-xl text-red-600 mt-2 mb-2">Identify maximum batchmates in these 4 pictures from 15 year reunion and get a chance to win 1 night free stay in Goa
       </p>
       <CustomSlider>
