@@ -67,7 +67,9 @@ const Navbar = () => {
           {/* contact me btn */}
           <div className="lg:block hidden">
             <button className="px-4 py-2 bg-transparent border border-primary text-primary rounded hover:bg-primary hover:text-white transition-all duration-300">
-              Contact Me
+          <Link activeClass="active" smooth={true} spy={true} offset={-100} to="contact" className="block  hover:text-gray-400 py-2 px-4 cursor-pointer">
+            Contact me
+            </Link>
             </button>
           </div>
 
