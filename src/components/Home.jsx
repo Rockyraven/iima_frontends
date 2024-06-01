@@ -2,7 +2,7 @@ import React from 'react';
 // import banner from '../assets/front.jpg';
 import './Home.css';
 
-const colors = ["/assets/front.jpg", "/assets/banner2.JPG", "/assets/banner3.jpg"];
+const colors = ["/assets/front.jpg", "/assets/banner2.JPG","/assets/banner3.jpg", "/assets/reunion.jpeg"];
 const delay = 2500;
 
 const Home = () => {
@@ -68,7 +68,7 @@ const Home = () => {
             Reunion 20 Years PGP 2004
           </h1>
           <h1 className="md:text-5xl text-3xl font-bold text-headingcolor leading-snug md:leading-[60px] font-mono -mt-2">
-           <span className="text-orange-600"> ABKI BAAR</span><span className="text-primary"> 150 </span><span className='text-green-600'>PAAR</span>
+           <span className="text-orange-600"> BEES</span><span className="text-primary"> SAAL </span><span className='text-green-600'>BAAD</span>
           </h1>
           <p className="text-md text-body leading-6 mb-8">
             Get ready for IIMA Ahmedabad's reunion in Goa, where spreadsheets turn into beach mats,
