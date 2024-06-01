@@ -39,7 +39,7 @@ export default function Testimonials() {
     <div className="mx-12">
 
       <h1 className="text-5xl font-bold mt-4">Challenges</h1>
-      <p className="text-xl text-red-600 mt-2 mb-2">Identify maximum batchmates and get one night free in goa
+      <p className="text-xl text-red-600 mt-2 mb-2">Identify maximum batchmates in these 4 pictures from 15 year reunion and get a chance to win 1 night free stay in Goa
       </p>
       <CustomSlider>
         {images.map((image, index) => {

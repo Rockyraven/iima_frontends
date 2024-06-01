@@ -22,9 +22,9 @@ const skills = [
     },
     {
       id: 4,
-      name: "FIRST MEALIN GOA",
+      name: "Section Wars",
       description:
-        "Enjoy the intimate ambiance with a onepiece band, serenading you with soulful        melodies. Immerse yourself in the music as it        sets the perfect backdrop for your        memorable moments in Goa.        ",
+        "intense yet fun games to find the ultimate section champs ",
       image: "/assets/skills-4.png",
     },
   ];
@@ -37,7 +37,7 @@ const Skills = () => {
         {/* <p className="text-xl text-headingcolor font-semibold mb-5">
           Facts
         </p> */}
-        <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">Fun in Goa</h2>
+        <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">20 union reunion @ GOA</h2>
       </div>
 
 
