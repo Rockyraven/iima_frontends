@@ -7,12 +7,11 @@ const About = () => {
           <img src={proPic} alt="" className="w-full sm:w-11/12" />
         </div>
         <div className="sm:w-1/2">
-          
-          <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">About me</h2>
+
+          <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">Goa Reunion: Unforgettable Memories Await</h2>
           <p className="mt-8 md:pr-8 mb-8">
-            Our reunions are more than just events; they are celebrations of our collective achievements and the unique bond we share as IIMA alumni. This website serves as your go-to resource for all reunion-related information, including event schedules, registration details, and exciting updates.
-            <br /><br/>
-            Explore our gallery to relive cherished memories, check out the list of attendees to see who’s joining, and stay informed about all planned activities. Whether you’re looking to network, catch up with old friends, or simply reminisce about your time at IIMA, this reunion promises to be an unforgettable experience.
+            Don't miss the IIMA Ahmedabad reunion in Goa! It's a once-in-a-lifetime chance to relive cherished memories, rekindle old friendships, and create unforgettable moments. Picture sunsets and laughter, deep conversations on the beach, and the joy of reconnecting with those who shaped your journey. This is where bonds deepen and hearts reunite.
+
           </p>
           <button className="btn-primary">Contact Me</button>
         </div>

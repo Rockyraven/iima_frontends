@@ -3,28 +3,28 @@ const skills = [
       id: 1,
       name: "Reconnect with Classmates",
       description:
-        "Reunite with old friends and classmates to reminisce about shared experiences and create new memories.",
+        "Reconnect with classmates and relive the cherished memories of your time at IIMA Ahmedabad. Rekindle old friendships, share life updates, and create new memories together. Whether reminiscing about past adventures or forging new connections.",
       image: "src/assets/skills-1.png",
     },
     {
       id: 2,
-      name: "Networking Opportunities",
+      name: "Beach Olympics",
       description:
-        "Reunions offer a chance to network with alumni, potentially leading to career opportunities and professional collaborations.",
+        "Engage yourself in exhilarating beachside games From sandcastle competitions to beach volleyball tournaments, our curated list promises endless fun      and team-building opportunities against the backdrop of the serene sea",
       image: "src/assets/skills-2.png",
     },
     {
       id: 3,
-      name: "Alumni Achievements",
+      name: "Dinner date with singing and dancing",
       description:
-        "Celebrate the accomplishments of your peers with special recognition and awards for notable alumni.",
+        "Kick off the dinner date with a karaoke setup, adding a fun and interactive element to the evening. Sing your heart out and create unforgettable memories in the company of colleagues.",
       image: "src/assets/skills-3.png",
     },
     {
       id: 4,
-      name: "Faculty Interaction",
+      name: "FIRST MEALIN GOA",
       description:
-        "Meet and greet with former professors and staff who played pivotal roles in your educational journey.",
+        "Enjoy the intimate ambiance with a onepiece band, serenading you with soulful        melodies. Immerse yourself in the music as it        sets the perfect backdrop for your        memorable moments in Goa.        ",
       image: "/src/assets/skills-4.png",
     },
   ];
@@ -37,7 +37,7 @@ const Skills = () => {
         {/* <p className="text-xl text-headingcolor font-semibold mb-5">
           Facts
         </p> */}
-        <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">Facts of Reunion</h2>
+        <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">Fun in Goa</h2>
       </div>
 
 

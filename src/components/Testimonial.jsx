@@ -1,25 +1,23 @@
+import React from "react";
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import ReviewCard from './ReviewCard';
+import images from "./image";
 
-const Testimonial = () => {
+import CustomSlider from "./custom.slider";
+
+
+export default function Testimonials() {
   return (
-    <div className="lg:px-12 px-4 my-10 py-4 bg-bgShade " id='testimonials'>
-      <div className="mb-20">
-        
-        <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">
-          Customer testimonials
-        </h2>
-      </div>
+    <div className="mx-12">
 
-      {/* reviews */}
-      <div>
-           <ReviewCard/>
-      </div>
+      <h1 className="text-5xl font-bold mt-4">Challenges</h1>
+      <p className="text-xl text-red-600 mt-2 mb-2">Identify maximum batchmates and get one night free in goa
+      </p>
+      <CustomSlider>
+        {images.map((image, index) => {
+          return <img key={index} src={image.imgURL} alt={image.imgAlt} />;
+        })}
+      </CustomSlider>
+
     </div>
   );
-};
-
-export default Testimonial;
+}

@@ -7,8 +7,8 @@ const Portfolio = () => {
 
   return (
     <>
-      <h2 className="md:text-5xl text-4xl text-headingcolor font-bold ml-10 mt-6 mb-6">
-        Gallery & Memories
+      <h2 className="md:text-5xl text-4xl text-headingcolor font-bold ml-10 mt-10 mb-6">
+         15years Reunion Pictures
       </h2>
       <div className="lg:mx-12 mx-4 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
         {data.map(({ imageLink }, index) => (
