@@ -1,17 +1,17 @@
 import React from "react";
 
 import images from "./image";
-import    ch1 from "../../public/assets/ch1.jpg"
-import    ch2 from "../../public/assets/ch2.jpg"
-import    ch3 from "../../public/assets/ch3.jpg"
-import    ch4 from "../../public/assets/ch4.jpg"
+import    ch1 from "/public/assets/ch1.png"
+import    ch2 from "/public/assets/ch2.png"
+import    ch3 from "/public/assets/ch3.png"
+import    ch4 from "/public/assets/ch4.png"
 
 import CustomSlider from "./custom.slider";
 
 
 export default function Testimonials() {
 
-  const image = [ "../../public/assets/ch2.jpg", "/assets/ch2.jpg","/assets/ch3.jpg", "/assets/ch4.jpg"];
+  // const image = [ "../../public/assets/ch2.jpg", "/assets/ch2.jpg","/assets/ch3.jpg", "/assets/ch4.jpg"];
   const images = [
     {
       imgURL:
