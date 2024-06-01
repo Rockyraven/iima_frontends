@@ -65,7 +65,7 @@ const Home = () => {
         {/* Left side */}
         <div className="md:w-1/2 w-full mt-5">
           <h1 className="md:text-2xl text-xl font-bold text-headingcolor leading-snug md:leading-[60px]">
-            Reunion 20 Years PGP 2004
+            Reunion 20 Year PGP 2004
           </h1>
           <h1 className="md:text-5xl text-3xl font-bold text-headingcolor leading-snug md:leading-[60px] font-mono -mt-2">
            <span className="text-orange-600"> ABKI BAAR</span><span className="text-primary"> 150 </span><span className='text-green-600'>PAAR</span>
