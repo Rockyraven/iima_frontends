@@ -42,7 +42,7 @@ const Contact = () => {
 
   const setContactData = async (values) => {
     try {
-      const res = await axios.post("http://localhost:5000/user/createdata", values);
+      const res = await axios.post("https://iima-backend-1.onrender.com/user/createdata", values);
       console.log(res);  
       toast.success("Data saved successfully")  
     } catch (error) {
