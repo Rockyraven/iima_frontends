@@ -10,12 +10,14 @@ import Skills from './components/Skills'
 import Testimonial from './components/Testimonial'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"
+import toast, { Toaster } from 'react-hot-toast';
 
 function App() {
   
 
   return (
     <>
+    <Toaster />
     <ToastContainer
         position="buttom-left"
         autoClose={3000}

@@ -34,24 +34,25 @@ const Contact = () => {
         .oneOf([true], 'You must accept the terms and conditions')
         .required('Required'),
     }),
-    onSubmit: values => {
-      alert(JSON.stringify(values, null, 2));
-      setContactData(values);
+    onSubmit: (values, { resetForm }) => {
+      // alert(JSON.stringify(values, null, 2));
+      setContactData(values, resetForm);
     },
   });
 
-  const setContactData = async (values) => {
+  const setContactData = async (values, resetForm) => {
     try {
       const res = await axios.post("https://iima-backend-1.onrender.com/user/createdata", values);
       console.log(res);  
-      toast.success("Data saved successfully")  
+      toast.success("Data saved successfully")  ;
+      resetForm();
     } catch (error) {
       console.log(error);
       toast.error("Some went wrong")  
     }
   }
 
-  console.log(formik); 
+  // console.log(formik); 
 
   return (
     <div className="lg:px-12 px-4">
