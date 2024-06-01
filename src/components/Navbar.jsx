@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
-import logo from "../assets/logo1.jpg";
+// import logo from "../assets/logo1.jpg";
+import logo from "../../public/assets/logo1.jpg";
 import { HiMenu } from "react-icons/hi";
 import { Link } from "react-scroll";
-import oldlogo from '../assets/oldlogo.jpg'
+import oldlogo from '../../public/assets/oldlogo.jpg'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="text-white flex gap-5 font-bold text-lg cursor-pointer justify-center items-center">
             <img src={logo} alt="" className="w-24" />
-            <img src={oldlogo} alt="" className="w-20 -mt-1" />
+            <img src={oldlogo} alt="" className="w-20 -mt-2" />
           </div>
 
           {/* for larger device */}
@@ -48,18 +49,18 @@ const Navbar = () => {
               Home
             </Link>
             <Link activeClass="active" smooth={true} spy={true} offset={-100} to="skills" className="block hover:text-gray-400 py-2 px-4 cursor-pointer">
-              Facts of Reunion
+            Fun in Goa
             </Link>
             <Link activeClass="active" smooth={true} spy={true} offset={-100} to="about" className="block  hover:text-gray-400 py-2 px-4 cursor-pointer">
 
-              About me
+            why you shouldn’t miss it
             </Link>
             <Link activeClass="active" smooth={true} spy={true} offset={-100} to="portfolio" className="block  hover:text-gray-400 py-2 px-4 cursor-pointer">
 
-              Gallery
+            15 years Reunion Pictures
             </Link>
             <Link activeClass="active" smooth={true} spy={true} offset={-100} to="testimonials" className="block  hover:text-gray-400 py-2 px-4 cursor-pointer">
-              Testimonials
+            Challenge
             </Link>
           </div>
 

@@ -1,4 +1,4 @@
-import logo from "../assets/logo1.jpg";
+import logo from "../../public/assets/logo1.jpg";
 import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {

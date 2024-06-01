@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const Portfolio = () => {
   const data = Array.from({ length: 32 }, (_, index) => ({
-    imageLink: `/src/gallery/${index + 1}.jpg`,
+    imageLink: `/gallery/${index + 1}.jpg`,
   }));
 
   return (
