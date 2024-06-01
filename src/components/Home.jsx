@@ -2,7 +2,7 @@ import React from 'react';
 import banner from '../assets/front.jpg';
 import './Home.css';
 
-const colors = ["/src/assets/front.jpg", "/src/assets/banner2.JPG", "/src/assets/banner3.jpg"];
+const colors = ["/assets/front.jpg", "/src/assets/banner2.JPG", "/src/assets/banner3.jpg"];
 const delay = 2500;
 
 const Home = () => {
