@@ -10,8 +10,6 @@ import CustomSlider from "./custom.slider";
 
 
 export default function Testimonials() {
-
-  // const image = [ "../../public/assets/ch2.jpg", "/assets/ch2.jpg","/assets/ch3.jpg", "/assets/ch4.jpg"];
   const images = [
     {
       imgURL:
@@ -37,9 +35,8 @@ export default function Testimonials() {
 
   return (
     <div className="mx-12">
-
       <h1 className="text-5xl font-bold mt-4">2024 Challenge - Winner takes it all</h1>
-      <p className="text-xl text-red-600 mt-2 mb-2">Identify maximum batchmates in these 4 pictures from 15 year reunion and get a chance to win 1 night free stay in Goa
+      <p className="text-xl text-red-600 mt-2 mb-2">Pilgrim <span className="text-blue-500">"Spot the Batchmates Contest"</span> - Spot maximum Wimwi 04 Batchmates and win Rs 5000 Voucher Courtesy the "Pilgrim" 
       </p>
       <CustomSlider>
         {images.map((image, index) => {
