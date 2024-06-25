@@ -34,7 +34,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className="mx-12">
+    <div className="mx-12" id="challenge">
       <h1 className="text-5xl font-bold mt-4">2024 Challenge - Winner takes it all</h1>
       <p className="text-xl text-red-600 mt-2 mb-2">Pilgrim <span className="text-blue-500">"Spot the Batchmates Contest"</span> - Spot maximum Wimwi 04 Batchmates and win Rs 5000 Voucher Courtesy the "Pilgrim" 
       </p>

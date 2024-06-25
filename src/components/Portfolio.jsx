@@ -7,6 +7,7 @@ const Portfolio = () => {
 
   return (
     <>
+    <div id="union">
       <h2 className="md:text-5xl text-4xl text-headingcolor font-bold ml-10 mt-10 mb-6">
          15years Reunion Pictures
       </h2>
@@ -20,6 +21,7 @@ const Portfolio = () => {
             />
           </div>
         ))}
+      </div>
       </div>
     </>
   );

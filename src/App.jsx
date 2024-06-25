@@ -11,7 +11,7 @@ import Testimonial from './components/Testimonial'
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"
 import toast, { Toaster } from 'react-hot-toast';
-
+import Price from './components/Price'
 function App() {
   
 
@@ -35,6 +35,7 @@ function App() {
     <About/>
     <Portfolio/>
     <Testimonial/>
+    <Price/>
     <Contact/>
     <Footer/>
     </>

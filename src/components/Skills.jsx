@@ -37,7 +37,7 @@ const Skills = () => {
         {/* <p className="text-xl text-headingcolor font-semibold mb-5">
           Facts
         </p> */}
-        <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">20 union reunion @ GOA</h2>
+        <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">20 Years Reunion @ GOA</h2>
       </div>
 
 

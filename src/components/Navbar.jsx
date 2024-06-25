@@ -57,7 +57,7 @@ const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="fun-in-goa"
+              to="skills"
               className="block hover:text-gray-400 py-2 px-4 cursor-pointer"
             >
               Fun in Goa
@@ -67,7 +67,7 @@ const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="why-miss"
+              to="about"
               className="block hover:text-gray-400 py-2 px-4 cursor-pointer"
             >
               Why You Shouldn’t Miss It
@@ -77,7 +77,7 @@ const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="reunion-pictures"
+              to="union"
               className="block hover:text-gray-400 py-2 px-4 cursor-pointer"
             >
               15 Years Reunion Pictures
@@ -92,23 +92,20 @@ const Navbar = () => {
             >
               Challenge
             </Link>
+            <Link
+              activeClass="active"
+              smooth={true}
+              spy={true}
+              offset={-100}
+              to="price"
+              className="block hover:text-gray-400 py-2 px-4 cursor-pointer"
+            >
+              Price
+            </Link>
           </div>
 
           {/* contact me btn */}
-          <div className="lg:block hidden">
-            <button className="px-4 py-2 bg-transparent border border-primary text-primary rounded hover:bg-primary hover:text-white transition-all duration-300">
-              <Link
-                activeClass="active"
-                smooth={true}
-                spy={true}
-                offset={-100}
-                to="contact"
-                className="block hover:text-gray-400 py-2 px-4 cursor-pointer"
-              >
-                Contact Me
-              </Link>
-            </button>
-          </div>
+          
 
           {/* btn for small devices */}
           <button onClick={toggleMenu} className="lg:hidden text-body text-3xl">
@@ -144,7 +141,7 @@ const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="why-miss"
+              to="union"
               className="block hover:text-gray-400 py-2"
             >
               Why You Shouldn’t Miss It
