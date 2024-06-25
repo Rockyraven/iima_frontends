@@ -131,7 +131,7 @@ const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="fun-in-goa"
+              to="about"
               className="block hover:text-gray-400 py-2"
             >
               20 union reunion @ GOA
@@ -141,7 +141,7 @@ const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="union"
+              to="about"
               className="block hover:text-gray-400 py-2"
             >
               Why You Shouldn’t Miss It
@@ -151,7 +151,7 @@ const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="reunion-pictures"
+              to="union"
               className="block hover:text-gray-400 py-2"
             >
               15 Years Reunion Pictures
