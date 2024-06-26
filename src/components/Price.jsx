@@ -26,13 +26,13 @@ const Price = () => {
                                 Occupancy
                             </th>
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                0-5 kids
+                                0-5Years kids
                             </th>
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                6-11 kids
+                                6-11years kids
                             </th>
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                12+ kids
+                                12years+ kids
                             </th>
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                                 All inclusive 2 night stay tariff (INR)
