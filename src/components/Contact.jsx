@@ -55,7 +55,7 @@ const Contact = () => {
   // console.log(formik); 
 
   return (
-    <div className="lg:px-12 px-4">
+    <div className="lg:px-12 px-4" id='contact'>
       <div className="mb-20 text-center">
         <p className="text-xl text-headingcolor font-semibold mb-5">
           Get In Touch

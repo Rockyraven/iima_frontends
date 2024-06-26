@@ -35,7 +35,7 @@ const Price = () => {
                                 12+ kids
                             </th>
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                All inclusive 2 night stay tariff
+                                All inclusive 2 night stay tariff (INR)
                             </th>
                         </tr>
                     </thead>
@@ -56,7 +56,7 @@ const Price = () => {
             <div>
                 <p className='text-red-500'>Remarks</p>
 
-                A. Accommodation for First 13 kids in 6-11 age group is free. max. 1 kid per family in 6-11 age grouo to be accommodated free.
+                A. Accommodation for First 13 kids in 6-11 age group is free. max. 1 kid per family in 6-11 age group to be accommodated free.
                 <br />
                 B. 12 + kids considered adults and charged INR 10000 per night. 6-11 age kids are charged INR 7500 per night
                 <br />

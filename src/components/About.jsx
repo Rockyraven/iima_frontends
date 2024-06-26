@@ -1,4 +1,5 @@
 // import proPic from "../../public/assets/profile.png";
+import { Link } from "react-scroll";
 import proPic from "../../public/gallery/ch11.jpg";
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
             Don't miss the IIMA Ahmedabad reunion in Goa! It's a once-in-a-lifetime chance to relive cherished memories, rekindle old friendships, and create unforgettable moments. Picture sunsets and laughter, deep conversations on the beach, and the joy of reconnecting with those who shaped your journey. This is where bonds deepen and hearts reunite.
 
           </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPNebrgQc8_BIxkmUfhFAgHjfO07G5JCNQV6dWc6IlL4scbw/viewform?usp=sf_link" className="btn-primary">Register</a>
+          <Link to="contact"  className="btn-primary">Get In Touch</Link>
         </div>
       </div>
     </div>
