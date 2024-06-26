@@ -87,8 +87,8 @@ const Home = () => {
           <p className="text-md text-body leading-6 mb-4">
             Bonus: You can relive the memories of our 2019 reunion at campus. Yes, yes, many of us have tried hard to erase parts of the memories over the last few years - but well, here they are! 🙂
             <br />
-            Two payments to be made by you to lock-in your participation:
-            (1) a payment of Rs 31,416/- (equal to 10,000 pi) per family. This is early bird pricing - after Jul 31, the charges will be Rs 35,000/-. <br />Yes, if you married a batchmate, just like in 2019, you pay only once.
+            Two payments to be made by you to lock-in your participation:<br/>
+            (1) a payment of Rs 31,416/- (equal to 10,000 pi) per family. This is early bird pricing - after Jul 31, the charges will be Rs 35,000/-. <br />Yes, if you married a batchmate, just like in 2019, you pay only once.<br/>
             (2) hotel payment to be done directly to Caravela hotel. We will notify you post registration on how hotel payment will be done. Hotel tariff is provided in the pricing section
             <br />
             Each one, if they have not already, please get your dorm mates, marketing group fellows, general bakar friends to join you in celebrating the 20 years of our batch from WIMWI!
