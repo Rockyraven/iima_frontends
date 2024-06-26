@@ -17,7 +17,7 @@ const data = [
 const Price = () => {
     return (
         <div id="price" className="w-full container mx-auto p-4 border-2 border-black m-5 ">
-        <h1 className='text-2xl text-center'>Event Price</h1>
+            <h1 className='text-2xl text-center'>HOTEL tariff (21-23 dec)</h1>
             <div className="overflow-x-auto">
                 <table className="min-w-full divide-y divide-gray-200">
                     <thead className="bg-gray-50">
@@ -52,6 +52,22 @@ const Price = () => {
                     </tbody>
                 </table>
             </div>
+            <br />
+            <div>
+                <p className='text-red-500'>Remarks</p>
+
+                A. Accommodation for First 13 kids in 6-11 age group is free. max. 1 kid per family in 6-11 age grouo to be accommodated free.
+                <br />
+                B. 12 + kids considered adults and charged INR 10000 per night. 6-11 age kids are charged INR 7500 per night
+                <br />
+                C. Hotel pricing includes accommodation, all meals, shared coach transfer from/to Dabolim airport/ Madgaon station.
+                <br />
+                D. Event pricing is INR 31416 per alumnus till 31st July. This is additional to hotel tariff.
+                <br />
+                E. Account details for transfer of event tariff and hotel tariff amount will be shared separately on WIMWI 2004 WhatsApp group
+                <br />
+            </div>
+
         </div>
     );
 };

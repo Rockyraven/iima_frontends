@@ -2,7 +2,7 @@ import React from 'react';
 // import banner from '../assets/front.jpg';
 import './Home.css';
 
-const colors = ["/assets/front.jpg", "/assets/banner2.JPG","/assets/banner3.jpg", "/assets/reunion.jpeg","/assets/chh1.jpeg","/assets/chh2.jpeg","/assets/chh3.jpeg"];
+const colors = ["/assets/front.jpg", "/assets/banner2.JPG", "/assets/banner3.jpg", "/assets/reunion.jpeg", "/assets/chh1.jpeg", "/assets/chh2.jpeg", "/assets/chh3.jpeg"];
 const delay = 2500;
 
 const Home = () => {
@@ -68,17 +68,33 @@ const Home = () => {
             Reunion 20 Years PGP 2004
           </h1>
           <h1 className="md:text-5xl text-3xl font-bold text-headingcolor leading-snug md:leading-[60px] font-mono -mt-2">
-           <span className="text-orange-600"> BEES</span><span className="text-primary"> SAAL </span><span className='text-green-600'>BAAD</span>
+            <span className="text-orange-600"> BEES</span><span className="text-primary"> SAAL </span><span className='text-green-600'>BAAD</span>
           </h1>
-          <p className="text-md text-body leading-6 mb-8">
-            Get ready for IIMA Ahmedabad's reunion in Goa, where spreadsheets turn into beach mats,
-            case studies become cocktail anecdotes, and networking events transform into limbo
-            competitions. It's a gathering where MBAs become Mai Tais, and the only numbers being
-            crunched are sunscreen SPF ratings. So pack your flip flops, dust off your old textbooks
-            (or use them as makeshift surfboards), and prepare for a reunion that's more "fun in the
-            sun" than "boardroom blues."
+          <p className="text-md text-body leading-6 mb-1">
+            WIMWI 2004 Reunites Once Again!
+            WIMWIans of 2004 - here we are finally. After all the preparations, polling, and polite calls to join in, this is when we ask for you to put the money on the table.
+            <br />
+            The Bees Saal Baad reunion on Sat, Dec 21 to Mon, Dec 23, 2024 at Caravela Resort, South Goa.
           </p>
-          <button className="btn-primary">Get In Touch</button>
+          <div className='flex justify-left items-center'>
+            <div className='text-lg mr-5 text-green-600'>Register here</div>
+            <div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPNebrgQc8_BIxkmUfhFAgHjfO07G5JCNQV6dWc6IlL4scbw/viewform?usp=sf_link">
+                <button className="py-2 px-3 bg-blue-600 rounded-xl text-white font-semibolds">Register</button>
+              </a>
+            </div>
+          </div>
+          <p className="text-md text-body leading-6 mb-4">
+            Bonus: You can relive the memories of our 2019 reunion at campus. Yes, yes, many of us have tried hard to erase parts of the memories over the last few years - but well, here they are! 🙂
+            <br />
+            Two payments to be made by you to lock-in your participation:
+            (1) a payment of Rs 31,416/- (equal to 10,000 pi) per family. This is early bird pricing - after Jul 31, the charges will be Rs 35,000/-. <br />Yes, if you married a batchmate, just like in 2019, you pay only once.
+            (2) hotel payment to be done directly to Caravela hotel. We will notify you post registration on how hotel payment will be done. Hotel tariff is provided in the pricing section
+            <br />
+            Each one, if they have not already, please get your dorm mates, marketing group fellows, general bakar friends to join you in celebrating the 20 years of our batch from WIMWI!
+          </p>
+
+
         </div>
         {/* Right side */}
       </div>
