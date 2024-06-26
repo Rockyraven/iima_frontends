@@ -83,8 +83,11 @@ const Home = () => {
                 <button className="py-2 px-3 bg-blue-600 rounded-xl text-white font-semibolds">Register</button>
               </a>
             </div>
+           
+            
           </div>
           <p className="text-md text-body leading-6 mb-4 mt-3">
+          <p><span className='font-bold'>Venue :- </span><a href='https://www.caravelabeachresortgoa.com/' className='text-blue-500 underline'>https://www.caravelabeachresortgoa.com</a></p>
             <span className='font-bold'>Bonus :-</span>You can relive the memories of our 2019 reunion at campus. Yes, yes, many of us have tried hard to erase parts of the memories over the last few years - but well, here they are! 🙂
             <br />
             <span className='font-bold'>Two payments to be made by you to lock-in your participation:</span> <br/>
