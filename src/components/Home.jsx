@@ -77,7 +77,7 @@ const Home = () => {
             The Bees Saal Baad reunion on Sat, Dec 21 to Mon, Dec 23, 2024 at Caravela Resort, South Goa.
           </p>
           <div className='flex justify-left items-center'>
-            <div className='text-lg mr-5 text-green-600'>Register here</div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPNebrgQc8_BIxkmUfhFAgHjfO07G5JCNQV6dWc6IlL4scbw/viewform?usp=sf_link" className='text-lg mr-5 text-green-600'>Register here</a>
             <div>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPNebrgQc8_BIxkmUfhFAgHjfO07G5JCNQV6dWc6IlL4scbw/viewform?usp=sf_link">
                 <button className="py-2 px-3 bg-blue-600 rounded-xl text-white font-semibolds">Register</button>
