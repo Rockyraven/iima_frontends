@@ -1,6 +1,7 @@
 import React from 'react';
 // import banner from '../assets/front.jpg';
 import './Home.css';
+import { Link } from 'react-scroll';
 
 const colors = ["/assets/front.jpg", "/assets/banner2.JPG", "/assets/banner3.jpg", "/assets/reunion.jpeg", "/assets/chh1.jpeg", "/assets/chh2.jpeg", "/assets/chh3.jpeg"];
 const delay = 2500;
@@ -32,7 +33,7 @@ const Home = () => {
 
   return (
     <div className="mt-3 bg-bgShade" id="home">
-      <div className="lg:px-12 px-4 flex flex-col md:flex-row-reverse items-center justify-between py-24 gap-5">
+      <div className="lg:px-12 px-4 flex flex-col md:flex-row-reverse items-center justify-between pt-24 pb-10 gap-5">
         <div className="md:w-1/2 w-full">
           {/* <img src={banner} alt="Banner" className="w-full rounded-lg" /> */}
           <div className="slideshow mt-6">
@@ -91,10 +92,13 @@ const Home = () => {
             <span className='font-bold'>Bonus :-</span>You can relive the memories of our 2019 reunion at campus. Yes, yes, many of us have tried hard to erase parts of the memories over the last few years - but well, here they are! 🙂
             <br />
             <span className='font-bold'>Two payments to be made by you to lock-in your participation:</span> <br/>
-            (1) a payment of Rs 31,416/- (equal to 10,000 pi) per family. This is early bird pricing - after Jul 31, the charges will be Rs 35,000/-. <br />Yes, if you married a batchmate, just like in 2019, you pay only once.<br/>
-            (2) hotel payment to be done directly to Caravela hotel. We will notify you post registration on how hotel payment will be done. Hotel tariff is provided in the pricing section
-            <br />
-            Each one, if they have not already, please get your dorm mates, marketing group fellows, general bakar friends to join you in celebrating the 20 years of our batch from WIMWI!
+            (1) A payment of Rs 31,416/- (equal to 10,000 pi) per family. This is early bird pricing - after Jul 31, the charges will be Rs 35,000/-. <br />Yes, if you married a batchmate, just like in 2019, you pay only once.<br/>
+            (2) Hotel payment to be done directly to Caravela hotel. We will notify you post registration on how hotel payment will be done.
+            <br/><Link to='price' smooth={true}
+              spy={true}
+              offset={-100} className='text-blue-500 cursor-pointer underline'> Hotel tariff is provided in the pricing section</Link>
+            
+            
           </p>
 
 

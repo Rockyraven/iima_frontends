@@ -11,11 +11,11 @@ const About = () => {
         <div className="sm:w-1/2">
 
           <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">Goa Reunion: Unforgettable Memories Await</h2>
-          <p className="mt-8 md:pr-8 mb-8">
+          <p className="mt-4 md:pr-8 mb-8">
             Don't miss the IIMA Ahmedabad reunion in Goa! It's a once-in-a-lifetime chance to relive cherished memories, rekindle old friendships, and create unforgettable moments. Picture sunsets and laughter, deep conversations on the beach, and the joy of reconnecting with those who shaped your journey. This is where bonds deepen and hearts reunite.
-
+            <p>Each one, if they have not already, please get your dorm mates, marketing group fellows, general bakar friends to join you in celebrating the 20 years of our batch from WIMWI!</p>
           </p>
-          <Link to="contact"  className="btn-primary">Get In Touch</Link>
+          <Link to="contact" className="btn-primary">Get In Touch</Link>
         </div>
       </div>
     </div>
