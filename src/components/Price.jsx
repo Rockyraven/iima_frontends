@@ -2,7 +2,7 @@
 import React from 'react';
 
 const data = [
-    { occupancy: "Double Occupancy", kids: { "0-5": 0, "6-11": 0, "12+": 0 }, tariff: 50000 },
+    { occupancy: "Single/Double Occupancy", kids: { "0-5": 0, "6-11": 0, "12+": 0 }, tariff: 50000 },
     { occupancy: "Double occupancy + 1 kid", kids: { "0-5": 1, "6-11": 0, "12+": 0 }, tariff: 50000 },
     { occupancy: "Double occupancy + 1 kid", kids: { "0-5": 0, "6-11": 1, "12+": 0 }, tariff: 65000 },
     { occupancy: "Double occupancy + 1 kid", kids: { "0-5": 0, "6-11": 0, "12+": 1 }, tariff: 70000 },

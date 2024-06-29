@@ -77,31 +77,30 @@ const Home = () => {
             <br />
             The Bees Saal Baad reunion on Sat, Dec 21 to Mon, Dec 23, 2024 at Caravela Resort, South Goa.
           </p>
-          <div className='flex justify-left items-center'>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPNebrgQc8_BIxkmUfhFAgHjfO07G5JCNQV6dWc6IlL4scbw/viewform?usp=sf_link" className='text-lg mr-5 text-green-600'>Register here</a>
-            <div>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPNebrgQc8_BIxkmUfhFAgHjfO07G5JCNQV6dWc6IlL4scbw/viewform?usp=sf_link">
-                <button className="py-2 px-3 bg-blue-600 rounded-xl text-white font-semibolds">Register</button>
-              </a>
-            </div>
-           
-            
-          </div>
           <p className="text-md text-body leading-6 mb-4 mt-3">
-          <p><span className='font-bold'>Venue :- </span><a href='https://www.caravelabeachresortgoa.com/' className='text-blue-500 underline'>https://www.caravelabeachresortgoa.com</a></p>
+            <p>
+              <span className='font-bold'>Two payments to be made by you to lock-in your participation:</span> <br />
+              (1) A payment of Rs 31,416/- (equal to 10,000 pi) per family. This is early bird pricing - after Jul 31, the charges will be Rs 35,000/-. <br />Yes, if you married a batchmate, just like in 2019, you pay only once.<br />
+              (2) Hotel payment to be done directly to Caravela hotel. We will notify you post registration on how hotel payment will be done.
+              <br /><Link to='price' smooth={true}
+                spy={true}
+                offset={-100} className='text-blue-500 cursor-pointer underline'> Hotel tariff is provided in the pricing section</Link>
+              <br />
+
+              <div className='flex justify-left items-center my-4'>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPNebrgQc8_BIxkmUfhFAgHjfO07G5JCNQV6dWc6IlL4scbw/viewform?usp=sf_link" className='text-lg mr-5 text-green-600'>Register here</a>
+                <div>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPNebrgQc8_BIxkmUfhFAgHjfO07G5JCNQV6dWc6IlL4scbw/viewform?usp=sf_link">
+                    <button className="py-2 px-3 bg-blue-600 rounded-xl text-white font-semibolds">Register</button>
+                  </a>
+                </div>
+
+
+              </div>
+              <span className='font-bold'>Venue :- </span><a href='https://www.caravelabeachresortgoa.com/' className='text-blue-500 underline'>https://www.caravelabeachresortgoa.com</a></p>
             <span className='font-bold'>Bonus :-</span>You can relive the memories of our 2019 reunion at campus. Yes, yes, many of us have tried hard to erase parts of the memories over the last few years - but well, here they are! 🙂
-            <br />
-            <span className='font-bold'>Two payments to be made by you to lock-in your participation:</span> <br/>
-            (1) A payment of Rs 31,416/- (equal to 10,000 pi) per family. This is early bird pricing - after Jul 31, the charges will be Rs 35,000/-. <br />Yes, if you married a batchmate, just like in 2019, you pay only once.<br/>
-            (2) Hotel payment to be done directly to Caravela hotel. We will notify you post registration on how hotel payment will be done.
-            <br/><Link to='price' smooth={true}
-              spy={true}
-              offset={-100} className='text-blue-500 cursor-pointer underline'> Hotel tariff is provided in the pricing section</Link>
-            
-            
+
           </p>
-
-
         </div>
         {/* Right side */}
       </div>
