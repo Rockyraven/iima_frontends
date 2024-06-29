@@ -36,7 +36,7 @@ function App() {
     <Portfolio/>
     <Testimonial/>
     <Price/>
-    <Contact/>
+    {/* <Contact/> */}
     <Footer/>
     </>
   )
