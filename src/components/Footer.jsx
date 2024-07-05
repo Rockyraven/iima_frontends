@@ -34,7 +34,6 @@ const Footer = () => {
             <hr />
             <div className='mt-6 flex flex-col md:flex-row justify-between gap-8'>
                 {/* <p>Made with 💖 by Airdokan</p> */}
-               
                     <a href="/" className='hover:text-slate-400'>Privacy Policy</a>
                     <a href="/" className='hover:text-slate-400'>Terms of Service</a>
                     <a href="/" className='hover:text-slate-400'>Cookies Settings</a>

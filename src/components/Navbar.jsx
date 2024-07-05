@@ -135,12 +135,12 @@ const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="about"
+              to="skills"
               className="block hover:text-gray-400 py-2"
             >
-              20 union reunion @ GOA
+              Fun in Goa
             </Link>
-            <Link
+            {/* <Link
               activeClass="active"
               smooth={true}
               spy={true}
@@ -149,7 +149,7 @@ const Navbar = () => {
               className="block hover:text-gray-400 py-2"
             >
               Why You Shouldn’t Miss It
-            </Link>
+            </Link> */}
             <Link
               activeClass="active"
               smooth={true}
@@ -165,11 +165,16 @@ const Navbar = () => {
               smooth={true}
               spy={true}
               offset={-100}
-              to="challenge"
+              to="price"
               className="block hover:text-gray-400 py-2"
             >
-              Challenge
+              Price
             </Link>
+            <div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPNebrgQc8_BIxkmUfhFAgHjfO07G5JCNQV6dWc6IlL4scbw/viewform?usp=sf_link">
+                <button className="py-2 px-3 bg-blue-600 rounded-xl text-white font-semibolds">Register</button>
+              </a>
+            </div>
           </div>
         )}
       </nav>
