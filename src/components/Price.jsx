@@ -66,6 +66,7 @@ const Price = () => {
                 <br />
                 E. Account details for transfer of event tariff and hotel tariff amount will be shared separately on WIMWI 2004 WhatsApp group
                 <br />
+                F. Caravela will reach out to you on hotel booking process post registration 
             </div>
 
         </div>
