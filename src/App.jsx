@@ -34,7 +34,7 @@ function App() {
     <Skills/>
     <About/>
     <Portfolio/>
-    <Testimonial/>
+    {/* <Testimonial/> */}
     <Price/>
     {/* <Contact/> */}
     <Footer/>

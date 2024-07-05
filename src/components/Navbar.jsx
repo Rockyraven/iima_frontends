@@ -30,9 +30,8 @@ const Navbar = () => {
   return (
     <header className="w-full fixed top-0 left-0 right-0">
       <nav
-        className={`py-4 md:px-12 px-4 bg-white ${
-          isSticky ? "sticky top-0 right-0 left-0 bg-white" : ""
-        }`}
+        className={`py-4 md:px-12 px-4 bg-white ${isSticky ? "sticky top-0 right-0 left-0 bg-white" : ""
+          }`}
       >
         <div className="flex items-center justify-between">
           <div className="text-white flex gap-5 font-bold text-lg cursor-pointer justify-center items-center">
@@ -62,7 +61,7 @@ const Navbar = () => {
             >
               Fun in Goa
             </Link>
-            <Link
+            {/* <Link
               activeClass="active"
               smooth={true}
               spy={true}
@@ -71,7 +70,7 @@ const Navbar = () => {
               className="block hover:text-gray-400 py-2 px-4 cursor-pointer"
             >
               Why You Shouldn’t Miss It
-            </Link>
+            </Link> */}
             <Link
               activeClass="active"
               smooth={true}
@@ -82,7 +81,7 @@ const Navbar = () => {
             >
               15 Years Reunion Pictures
             </Link>
-            <Link
+            {/* <Link
               activeClass="active"
               smooth={true}
               spy={true}
@@ -91,7 +90,7 @@ const Navbar = () => {
               className="block hover:text-gray-400 py-2 px-4 cursor-pointer"
             >
               Challenge
-            </Link>
+            </Link> */}
             <Link
               activeClass="active"
               smooth={true}
@@ -102,10 +101,15 @@ const Navbar = () => {
             >
               Price
             </Link>
+            <div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPNebrgQc8_BIxkmUfhFAgHjfO07G5JCNQV6dWc6IlL4scbw/viewform?usp=sf_link">
+                <button className="py-2 px-3 bg-blue-600 rounded-xl text-white font-semibolds">Register</button>
+              </a>
+            </div>
           </div>
 
           {/* contact me btn */}
-          
+
 
           {/* btn for small devices */}
           <button onClick={toggleMenu} className="lg:hidden text-body text-3xl">
