@@ -82,7 +82,7 @@ const Home = () => {
             <br />
             <p className='mt-2'>
               <span className='font-bold'>Two payments to be made by you to lock-in your participation:</span> <br />
-              (1) A payment of Rs 31,416/- (equal to 10,000 pi) per family. This is early bird pricing - after Jul 31, the charges will be Rs 35,000/-. <br />Yes, if you married a batchmate, just like in 2019, you pay only once.<br />
+              (1) A payment of Rs 31,416/- (equal to 10,000 pi) per family. This is early bird pricing - after Aug 15, the charges will be Rs 35,000/-. <br />Yes, if you married a batchmate, just like in 2019, you pay only once.<br />
               (2) Hotel payment to be done directly to Caravela hotel. We will notify you post registration on how hotel payment will be done.
               <br /><Link to='price' smooth={true}
                 spy={true}

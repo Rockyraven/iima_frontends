@@ -7,22 +7,22 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row md:items-center justify-between gap-8 mb-5'>
                 <a href="/"><img src={logo} alt="" className="w-[200px]"/></a>
                 <div className='flex flex-col md:flex-row md:items-center gap-4 flex-wrap'>
-                <a
+                {/* <a
               href="#"
               className="block text-primary hover:text-gray-400 py-2 px-4"
             >
               Home
-            </a>
-            <a href="#" className="block hover:text-gray-400 py-2 px-4">
+            </a> */}
+            {/* <a href="#" className="block hover:text-gray-400 py-2 px-4">
               Gallery
-            </a>
-            <a href="#" className="block  hover:text-gray-400 py-2 px-4">
+            </a> */}
+            {/* <a href="#" className="block  hover:text-gray-400 py-2 px-4">
               
               About me
             </a>
             <a href="#" className="block  hover:text-gray-400 py-2 px-4">
               Testimonials
-            </a>
+            </a> */}
                 </div>
                 <div className='flex items-center gap-4 ml-4'>
                     <FaFacebookF className='cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary'/>

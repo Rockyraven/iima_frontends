@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="text-white flex gap-5 font-bold text-lg cursor-pointer justify-center items-center">
             <img src={logo} alt="logo" className="w-24" />
-            <img src={oldlogo} alt="old logo" className="w-20 -mt-2" />
+            {/* <img src={oldlogo} alt="old logo" className="w-20 -mt-2" /> */}
           </div>
 
           {/* for larger device */}

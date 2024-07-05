@@ -62,7 +62,7 @@ const Price = () => {
                 <br />
                 C. Hotel pricing includes accommodation, all meals, shared coach transfer from/to Dabolim airport/ Madgaon station.
                 <br />
-                D. Event pricing is INR 31416 per alumnus till 31st July. This is additional to hotel tariff.
+                D. Event pricing is INR 31416 per alumnus till Aug. This is additional to hotel tariff.
                 <br />
                 E. Account details for transfer of event tariff and hotel tariff amount will be shared separately on WIMWI 2004 WhatsApp group
                 <br />
