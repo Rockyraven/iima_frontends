@@ -34,9 +34,9 @@ const Home = () => {
   return (
     <div className="mt-3 bg-bgShade" id="home">
       <div className="lg:px-12 px-4 flex flex-col md:flex-row-reverse items-center justify-between pt-24 pb-10 gap-5">
-        <div className="md:w-1/2 w-full">
+        {/* <div className="md:w-1/2 w-full"> */}
           {/* <img src={banner} alt="Banner" className="w-full rounded-lg" /> */}
-          <div className="slideshow mt-6">
+          {/* <div className="slideshow mt-6">
             <div
               className="slideshowSlider "
               style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
@@ -61,10 +61,10 @@ const Home = () => {
                 ></div>
               ))}
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         {/* Left side */}
-        <div className="md:w-1/2 w-full mt-5">
+        <div className=" w-full mt-5">
           <h1 className="md:text-2xl text-xl font-bold text-headingcolor leading-snug md:leading-[60px]">
             Reunion 20 Years PGP 2004
           </h1>

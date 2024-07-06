@@ -56,17 +56,15 @@ const Price = () => {
             <div>
                 <p className='text-red-500'>Remarks</p>
 
-                A. Accommodation for First 13 kids in 6-11 age group is free. max. 1 kid per family in 6-11 age group to be accommodated free.
-                <br />
-                B. 12 + kids considered adults and charged INR 10000 per night. 6-11 age kids are charged INR 7500 per night
-                <br />
-                C. Hotel pricing includes accommodation, all meals, shared coach transfer from/to Dabolim airport/ Madgaon station.
-                <br />
-                D. Event pricing is INR 31416 per alumnus till Aug. This is additional to hotel tariff.
-                <br />
-                E. Account details for transfer of event tariff and hotel tariff amount will be shared separately on WIMWI 2004 WhatsApp group
-                <br />
-                F. Caravela will reach out to you on hotel booking process post registration 
+                <span className='font-semibold'>A</span> - Accommodation for the first 13 kids in 6-11 age group is free. Maximum 1 kid per family in 6-11 age group to be accommodated free.
+                <br/>
+                <span className='font-semibold'>B</span> - Kids over 12 years are considered adults and charged INR 10,000 per night. 6-11 age kids are charged INR 7,500 per night<br/>
+                <span className='font-semibold'>C</span> - Hotel pricing includes accommodation and all meals.<br/>
+                <span className='font-semibold'>E</span> - We are working on getting complimentary shared coach transfer from/to Dabolim airport/ Madgaon station by the hotel. It may not be possible for individual transfers or at odd times or from MOPA airport.<br/>
+                <span className='font-semibold'>E</span> - Event pricing is INR 31,416 per alumnus till Aug 15, 2024. This is additional to hotel tariff. The pricing increases to INR 35,000 after Aug 15. The money needs to be transferred from a domestic account only.<br/>
+                <span className='font-semibold'>F</span> - Account details for transfer of event tariff and hotel tariff amount will be shared separately on WIMWI 2004 WhatsApp group.<br/>
+                <span className='font-semibold'>G</span> - Caravela will reach out to you on hotel booking process post registration. Check-in time on Dec 21 is 2PM and check-out time is 12 noon. On Dec 21, lunch will be arranged from around 12:30PM.<br/>
+                <span className='font-semibold'>H</span> - Preferably plan your arrival in Goa between 7 am-noon on 21st dec and departure post 230 pm on 23rd dec. The hotel is 1 hr from Dabolim (GOI) and 2 hrs from MOPA/ North Goa (GOX)
             </div>
 
         </div>
