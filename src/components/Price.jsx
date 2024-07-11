@@ -54,7 +54,7 @@ const Price = () => {
             </div>
             <br />
             <div>
-                <p className='text-red-500'>Remarks</p>
+                
                 <p className='font-bold'> Please note: </p>
 
                 <p className='font-bold text-blue-600'> When and how to pay for hotel</p>
@@ -65,9 +65,9 @@ const Price = () => {
                 <br/>
                 <p className='font-bold text-blue-600'>Kids accommodation </p>
 
-                <span className='font-semibold'>A</span> - Kids over 12 years are considered adults and charged INR 20.000  for two nights. 6-11 age kids are charged INR 15,000 for two nights. Kids under 6 yrs are complimetary.
+                <span className='font-semibold'>A</span> - Kids over 12 years are considered adults and charged INR 20.000  for two nights. 6-11 age kids are charged INR 15,000 for two nights. Kids under 6 yrs are complimentary.
                 <br />
-                <span className='font-semibold'>B</span> - As a special discount, the first 49 kids (6-17 yrs) to be registered, will receive a discount of INR 4,000  per kid for their respective two night tariff. Registration time stamp will be used as proof for identifying first 49 kids. In the event of less than 49 kids attending the reunion, the discount of 1.95 L will be evenly distributed across the attending kids.
+                <span className='font-semibold'>B</span> - As a special discount, the first 50 kids (6-17 yrs) to be registered, will receive a discount of INR 4,000  per kid for their respective two night tariff. Registration time stamp will be used as proof for identifying first 50 kids. In the event of less than 50 kids attending the reunion, the discount of 1.95 Lac will be evenly distributed across the attending kids.
                 <br/>
                 <br/>
                 <p className='font-bold text-blue-600' >What’s included </p>
