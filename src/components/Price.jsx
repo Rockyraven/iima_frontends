@@ -55,19 +55,35 @@ const Price = () => {
             <br />
             <div>
                 <p className='text-red-500'>Remarks</p>
+                <p className='font-bold'> Please note: </p>
 
-                <span className='font-semibold'>A</span> - Accommodation for the first 13 kids in 6-11 age group is free. Maximum 1 kid per family in 6-11 age group to be accommodated free.
+                <p className='font-bold text-blue-600'> When and how to pay for hotel</p>
+                <span className='font-semibold'>A</span> - You will receive an email from advanihotels within a few days of submitting the reunion registration form. Pls follow the instructions and make payment of INR 50,000 for two nights. You can pay for your kids accommodation later during your stay.
+                <br />
+                <span className='font-semibold'>B</span> -  In case you are travelling solo and wish to share rooms with a batchmate, OC can help in your pairing
+                <br />
                 <br/>
-                <span className='font-semibold'>B</span> - Kids over 12 years are considered adults and charged INR 10,000 per night. 6-11 age kids are charged INR 7,500 per night<br/>
-                <span className='font-semibold'>C</span> - Hotel pricing includes accommodation and all meals.<br/>
-                <span className='font-semibold'>E</span> - We are working on getting complimentary shared coach transfer from/to Dabolim airport/ Madgaon station by the hotel. It may not be possible for individual transfers or at odd times or from MOPA airport.<br/>
-                <span className='font-semibold'>E</span> - Event pricing is INR 31,416 per alumnus till Aug 15, 2024. This is additional to hotel tariff. The pricing increases to INR 35,000 after Aug 15. The money needs to be transferred from a domestic account only.<br/>
-                <span className='font-semibold'>F</span> - Account details for transfer of event tariff and hotel tariff amount will be shared separately on WIMWI 2004 WhatsApp group.<br/>
-                <span className='font-semibold'>G</span> - Caravela will reach out to you on hotel booking process post registration. Check-in time on Dec 21 is 2PM and check-out time is 12 noon. On Dec 21, lunch will be arranged from around 12:30PM.<br/>
-                <span className='font-semibold'>H</span> - Preferably plan your arrival in Goa between 7 am-noon on 21st dec and departure post 230 pm on 23rd dec. The hotel is 1 hr from Dabolim (GOI) and 2 hrs from MOPA/ North Goa (GOX)
+                <p className='font-bold text-blue-600'>Kids accommodation </p>
+
+                <span className='font-semibold'>A</span> - Kids over 12 years are considered adults and charged INR 20.000  for two nights. 6-11 age kids are charged INR 15,000 for two nights. Kids under 6 yrs are complimetary.
+                <br />
+                <span className='font-semibold'>B</span> - As a special discount, the first 49 kids (6-17 yrs) to be registered, will receive a discount of INR 4,000  per kid for their respective two night tariff. Registration time stamp will be used as proof for identifying first 49 kids. In the event of less than 49 kids attending the reunion, the discount of 1.95 L will be evenly distributed across the attending kids.
+                <br/>
+                <br/>
+                <p className='font-bold text-blue-600' >What’s included </p>
+                <span className='font-semibold'>A</span> -  Hotel pricing includes accommodation and all major meals over the 2N stay
+                <br />
+                <span className='font-semibold'>B</span> -  We are working on getting complimentary shared coach transfer from/to Dabolim airport/ Madgaon station by the hotel. It may not be possible for individual transfers or at odd times or from MOPA airport. .<br />
+                <br/>
+                <p className='font-bold text-blue-600'>When to Reach </p>
+                <span className='font-semibold '>A</span> -  Check-in time on Dec 21 is 2PM and check-out time is 12 noon. On Dec 21, lunch will be arranged from around 12:30PM. In case you miss lunch at arrival on 21st Dec, you have an option to avail it at departure on 23rd Dec
+                <br />
+                <span className='font-semibold '>B</span> -  Preferably plan your arrival at Goa airport/ station between 7 am to noon on 21st dec and departure post 3 pm on 23rd dec. The hotel is 1 hr from Dabolim (GOI) and 2 hrs from MOPA/ North Goa (GOX)
+                <br />
+
             </div>
 
-        </div>
+        </div >
     );
 };
 
