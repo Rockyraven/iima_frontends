@@ -22,9 +22,9 @@ const skills = [
     },
     {
       id: 4,
-      name: "Section Wars",
+      name: "Black Book",
       description:
-        "intense yet fun games to find the ultimate section champs ",
+        "Your ultimate guide to WIMWI 2004 Goa Reunion",
       image: "/assets/skills-4.png",
     },
   ];
@@ -48,6 +48,7 @@ const Skills = () => {
                 <img src={skill.image} alt="" className="w-14 h-14 p-3 bg-white rounded-lg shadow-md mb-5"/>
                 <h3 className="text-2xl font-bold mb-4">{skill.name}</h3>
                 <p>{skill.description}</p>
+                {skill.id===4&&(<a href="https://drive.google.com/file/d/1wxiKb89-cxE_d3mCrojnKJkILHYk0AgO/view?usp=sharing" className="text-blue-500">Khul Ja Black Book</a>)}
             </div>)
         }
       </div>
